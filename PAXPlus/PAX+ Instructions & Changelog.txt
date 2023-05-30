@@ -167,6 +167,13 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 
 #Changelog
 
--1.2: Corrected splash radius on explosive weapons. Reduced Incinterator heat generation. Reduced MRLS heat dispersion. Corrected Seeker flight speed.
--1.1: Changed a line to properly not affect mech speed. #decreasethespeeds.
--1.0: Initial release.
+-1.3:	Corrected flight speed for projectile weapons, thanks Team Hawakening. 
+		Flying no longer costs extra fuel to start from the ground. 
+		Corrected fuel drain while flying from 1.0/s across the board to 1.4/s for A-, 1.5/s for B-, 1.6/s for C-Classes
+		Depth of Field now enabled by default. Some config files set to 'read only' to keep them from being overridden by the exe.
+		Corrected EOC Repeater damage from 13 + 26 to 13 + 13, corrected EOC Mine splash from 5 to 600.
+		Decreased Tri-Seeker fire rate from 0.7/s to 0.9/s, decreased Tri-Seeker damage from 35 to 25
+		Corrected Assault Rifle fire rate from 0.12 to 0.2, corrected heat generation from 1.08 to 1.26
+-1.2:	Corrected splash radius on explosive weapons. Reduced Incinterator heat generation. Reduced MRLS heat dispersion. Corrected Seeker flight speed.
+-1.1:	Changed a line to properly not affect mech speed. #decreasethespeeds.
+-1.0:	Initial release.
