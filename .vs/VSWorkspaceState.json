@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PAXPlus",
+    "\\PAXPlus\\Hawken",
+    "\\PAXPlus\\HawkenGame",
+    "\\PAXPlus\\Hawken\\HawkenGame",
+    "\\PAXPlus\\Hawken\\HawkenGame\\Config"
   ],
+  "SelectedNode": "\\PAXPlus\\Hawken\\HawkenGame\\Config\\HawkenMechs.ini",
   "PreviewInSolutionExplorer": false
 }

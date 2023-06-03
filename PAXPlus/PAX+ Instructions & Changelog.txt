@@ -164,6 +164,8 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 
 #Changelog
 
+-1.3.2: Increased mech walking acceleration.
+		Corrected EOC Repeater damage. For sure this time. Don't leave stray comments lying around.
 -1.3.1:	Added improved netcode configuration for 60 tick servers, courtesy of @!NFiN!TY
 		Changed Damage Absorb from 65% reduction for 1.25s, 16s recharge to pre-Invasion stats of 13% reduction for 9s, 70s to recharge.
 		Corrected EOC Repeater damage again.		
