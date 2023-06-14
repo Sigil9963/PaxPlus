@@ -1,16 +1,18 @@
 @ActiveDuty Pilots, I give you PAX+
 
-#Installation Instructions:
+#Installation Instructions
 
 -Extract the [PAX Client](https://drive.google.com/file/d/1bXj0wxjNct_kvndWWufxPqKWVnHdP2zV/view?usp=sharing) to a location of your choice.
--Download this ini mod.
--Navigate to `pax-client\hawken\Hawken-PC-Shipping\' folder, drag and drop the `HawkenGame` folder from this mod.
--*Optionally, navigate to `pax-client\hawken\Hawken-PC-Shipping\HawkenGame\Config' and open `DefaultEngine.ini`
--*Ctrl+F for `MyDocumentsSubDirName=Hawken` in `DefaultEngine.ini` and change the line to `MyDocumentsSubDirName=HawkenPAX`
--*This allows you to have Hawken PAX and Hawakening installed at the same time without having setting conflicts.
--Navigate to `Documents\My Games` folder, drag and drop the `Hawken` folder from this mod. 
--*If you are using the optional path modification, rename the folder to `HawkenPAX`
+-Download this ini mod by following the 'Latest Version' link above.
+-Navigate to `pax-client\hawken\Hawken-PC-Shipping\` folder, drag and drop the `HawkenGame` folder from this mod.
+-Navigate to `C:\Users\%USERPROFILE%\Documents\My Games` folder, drag and drop the `Hawken` folder from this mod. 
 -Run the PAX Client from its included .bat file as normal.
+-To connect to a server, press `~` to open the console and type `open x`, replacing the x with a server IP found here: https://discord.com/channels/390593866690068480/875093689314209902/1109545659155087471 
+
+#To run PAX+ alongside Hawakening:
+-Navigate to `pax-client\hawken\Hawken-PC-Shipping\HawkenGame\Config` and open `DefaultEngine.ini`
+-Ctrl+F for `MyDocumentsSubDirName=Hawken` in `DefaultEngine.ini` and change the line to `MyDocumentsSubDirName=HawkenPAX`
+-Navigate to `C:\Users\%USERPROFILE%\Documents\My Games` Rename the `Hawken` folder to `HawkenPAX`
 
 **NOTE:**By default the following settings will be applied:
 -FOV set to 110. Override in `Documents\My Games\Hawken\HawkenGame\Config\HawkenGame.ini`
@@ -105,7 +107,7 @@ Default Weapons: Mini-flak and Flak Cannon, also intended to work with HEAT Cann
 -Ability: Damage Boost
 -Default Weapons: Point-D Vulcan
 -Secondary: Sabot Rifle
-Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt fed, small caliber rounds, combined with improvements to the Assault plaform since its inception create a terrifying skirmisherand a hail of lead.
+Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt fed, small caliber rounds, combined with improvements to the Assault plaform since its inception create a terrifying skirmisher and a hail of lead.
 
 ###Bruiser
 -Ability: Damage Absorb
@@ -164,20 +166,42 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 
 #Changelog
 
+-1.4:	Added Low and Medium presets for graphics through new HawkenSystemSettings.ini files.
+		Corrected repair rate from 35/s across the board to 45/s for A-Class, 55/s for B-Class, and 65/s for C-Class
+		Corrected Seeker and Tri-Seeker splash radius from 57.5u to 575u.
+		Added hover tooltips to weapons and items for more information.
+		Renamed Damage Boost to Ballistic Barrage
+		Renamed Jet Boosters to Blitz
+		Changed several internals to make more sense with the lower numbers in the 2017 patch.
+			Advanced Reinforced Armor from +50 to +25 health
+			Advanced Repair Kit from 30/s to 15/s
+			Advanced Fuel Canisters from 2u to 1u
+			Advanced Fuel Generator from 0.3/s to 0.15/s
+			Advanced Radar from 3000u to 1000u
+			Advanced Cooling units from -3s to -1s
+			Advanced Special Weapons Loader from -0.5s to -0.25s
+		Corrected heat generation for several weapons.
+			Corrected TOW heat from 10.5 to 9.45
+			Corrected Grenade Launcher heat from 9.75 to 8.775
+			Corrected Hellfires heat from 12 to 10.8
+			Corrected SA Hawkins heat from 1.80375 to 1.6234
+			Corrected SMC heat from 0.67 to 0.603
+			Corrected EOC Repeater heat from 2 to 1.8
+			Corrected Heat Cannon heat from 7.25 to 6.525
 -1.3.2: Increased mech walking acceleration.
 		Corrected EOC Repeater damage. For sure this time. Don't leave stray comments lying around.
 -1.3.1:	Added improved netcode configuration for 60 tick servers, courtesy of @!NFiN!TY
 		Changed Damage Absorb from 65% reduction for 1.25s, 16s recharge to pre-Invasion stats of 13% reduction for 9s, 70s to recharge.
 		Corrected EOC Repeater damage again.		
 		Halved hard landing movement delay.
-		All ini files set as 'read only' to keep them from being overridden by the exe.
--1.3:	Corrected flight speed for projectile weapons, thanks Team Hawakening. 
+		All ini files set as 'read only' to keep them from being overwritten by the exe.
+-1.3:	Corrected flight speed for projectile weapons, thanks Team Hawakening.
 		Flying no longer costs extra fuel to start from the ground. 
 		Corrected fuel drain while flying from 1.0/s across the board to 1.4/s for A-, 1.5/s for B-, 1.6/s for C-Classes
-		Depth of Field now enabled by default. Some config files set to 'read only' to keep them from being overridden by the exe.
+		Depth of Field now enabled by default. Some config files set to 'read only' to keep them from being overwritten by the exe.
 		Corrected EOC Repeater damage from 13 + 26 to 13 + 13, corrected EOC Mine splash from 5 to 600.
 		Decreased Tri-Seeker fire rate from 0.7/s to 0.9/s, decreased Tri-Seeker damage from 35 to 25
 		Corrected Assault Rifle fire rate from 0.12 to 0.2, corrected heat generation from 1.08 to 1.26
--1.2:	Corrected splash radius on explosive weapons. Reduced Incinterator heat generation. Reduced MRLS heat dispersion. Corrected Seeker flight speed.
+-1.2:	Corrected splash radius on explosive weapons. Reduced Incinerator heat generation. Reduced MRLS heat dispersion. Corrected Seeker flight speed.
 -1.1:	Changed a line to properly not affect mech speed. #decreasethespeeds.
 -1.0:	Initial release.

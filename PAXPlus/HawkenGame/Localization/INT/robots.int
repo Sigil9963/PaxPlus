@@ -1,0 +1,1182 @@
+﻿
+[R_Ability_AttackBoost]
+AbilityName="Ballistic Barrage"
+Description="Boost all weapon and item damage for a period of time"
+
+[R_Ability_Barrier]
+AbilityName="Damage Absorb"
+Description="Reduce all damage taken for a period of time"
+
+[R_Ability_Base]
+AbilityName="Unknown"
+Description="Unknown"
+
+[R_Ability_Cammo]
+AbilityName="Camouflage"
+Description="An advanced active camouflage cloaking that masks your visibility for a period of time"
+
+[R_Ability_Coolant]
+AbilityName = "Weapons Coolant"
+Description="No weapon heat buildup for a period of time"
+
+[R_Ability_FuelReplenish]
+AbilityName="Fuel Reserves"
+Description="Quickly replenish a good amount of thruster fuel from a reserve tank"
+
+[R_Ability_HeavyMobile]
+AbilityName="Mobile Turret"
+Description="Convert to a reduced damage heavy defense mode with more mobility than standard"
+
+[R_Ability_HeavyMode]
+AbilityName="Artillery Turret"
+Description="Convert to a reduced damage heavy defense mode with increased damage"
+
+[R_Ability_HeavyRegen]
+AbilityName="Fortified Turret"
+Description="Convert to a reduced damage heavy defense mode with a constant slow armor repair"
+
+[R_Ability_MovementIncrease]
+AbilityName="Blitz"
+Description="Increase walk, run and boosting speeds for a period of time"
+
+[R_Attachment_Base]
+DisplayName="AttachmentBase"
+ModificationDescription="Unknown"
+TooltipText="no tooltip"
+
+[R_Attachment_D_Armor]
+DisplayName="Armor"
+ModificationDescription="Decrease Damage Received - 2%"
+TooltipText="Decrease all damage received"
+
+[R_Attachment_D_HeatResistantArmor]
+DisplayName="Heat Resistant Armor"
+ModificationDescription="Decrease Explosion Damage Received - 3%"
+TooltipText="Decrease damage taken from explosions"
+
+[R_Attachment_D_PlatedArmor]
+DisplayName="Plated Armor"
+ModificationDescription="Decrease Trace Damage Received - 3%"
+TooltipText="Decrease damage taken from bullets"
+
+[R_Attachment_D_ReinforcedArmor]
+DisplayName="Reinforced Armor"
+ModificationDescription="+15 Max Health"
+TooltipText="Increase max health"
+
+[R_Attachment_D_RepairKit]
+DisplayName="Repair Kit"
+ModificationDescription="Increase Repair rate - 7 /sec"
+TooltipText="Increase repair rate"
+
+[R_Attachment_DA_Armor]
+DisplayName="Advanced Armor"
+ModificationDescription="Decrease Damage Received - 4%"
+TooltipText="Decrease all damage received"
+
+[R_Attachment_DA_HeatResistantArmor]
+DisplayName="Advanced Heat Resistant Armor"
+ModificationDescription="Decrease Explosion Damage Received - 6%"
+TooltipText="Decrease damage taken from explosions"
+
+[R_Attachment_DA_PlatedArmor]
+DisplayName="Advanced Plated Armor"
+ModificationDescription="Decrease Trace Damage Received - 6%"
+TooltipText="Decrease damage taken from bullets"
+
+[R_Attachment_DA_ReinforcedArmor]
+DisplayName="Advanced Reinforced Armor"
+ModificationDescription="+25 Max Health"
+TooltipText="Increase max health"
+
+[R_Attachment_DA_RepairKit]
+DisplayName="Advanced Repair Kit"
+ModificationDescription="Increase Repair rate - 15/sec"
+TooltipText="Increase repair rate"
+
+[R_Attachment_F_EUCanisters]
+DisplayName="E.U. Canisters"
+ModificationDescription="+35 Energy Unit Capacity"
+TooltipText="Increase Energy Unit Carry Capacity"
+
+[R_Attachment_F_FuelCanisters]
+DisplayName="Fuel Canisters"
+ModificationDescription="Increase Max Fuel - 0.5 unit"
+TooltipText="Increase Maximum Fuel Capacity"
+
+[R_Attachment_F_FuelGenerator]
+DisplayName="Fuel Generator"
+ModificationDescription="Increase Fuel Regen - 0.8/Sec"
+TooltipText="Increase Fuel Regeneration Rate"
+
+[R_Attachment_F_Radars]
+DisplayName="Radars"
+ModificationDescription="Increase Radar Distance - 30 m" ;15 units
+TooltipText="Increase Radar Distance"
+
+[R_Attachment_F_Thrusters]
+DisplayName="Thrusters"
+ModificationDescription="Increase Boost Forward Speed - 1.1 m/s" ; 0.55 units/sec
+TooltipText="Increase Forward Boost Speed"
+
+[R_Attachment_FA_EUCanisters]
+DisplayName="Advanced E.U. Canisters"
+ModificationDescription="+70 Enerty Unit Capacity"
+TooltipText="Increase Energy Unit Carry Capacity"
+
+[R_Attachment_FA_FuelCanisters]
+DisplayName="Advanced Fuel Canisters"
+ModificationDescription="Increase Max Fuel - 1 unit"
+TooltipText="Increase Maximum Fuel Capacity"
+
+[R_Attachment_FA_FuelGenerator]
+DisplayName="Advanced Fuel Generator"
+ModificationDescription="Increase Fuel Regen - 0.15/Sec"
+TooltipText="Increase Fuel Regeneration Rate"
+
+[R_Attachment_FA_Radars]
+DisplayName="Advanced Radars"
+ModificationDescription="Increase Radar Distance - 20 m" ; 1000 units
+TooltipText="Increase Radar Distance"
+
+[R_Attachment_FA_Thrusters]
+DisplayName="Advanced Thrusters"
+ModificationDescription="Increase Boost Forward Speed - 2.2 m/s" ; 1.1 unit/sec
+TooltipText="Increase Forward Boost Speed"
+
+[R_Attachment_O_ArmorPiercingMunitions]
+DisplayName="Armor Piercing Munitions"
+ModificationDescription="Increase Trace Bullet Damage - 2.5%"
+TooltipText="Increase damage for bullet weapons"
+
+[R_Attachment_O_CoolingUnits]
+DisplayName="Cooling Units"
+ModificationDescription="Reduce Overheat Recover Time - 0.5 sec"
+TooltipText="Reduce overheat recovery time"
+
+[R_Attachment_O_ExplosiveMunitions]
+DisplayName="Explosive Munitions"
+ModificationDescription="Increase Explosion Damage - 2.5%"
+TooltipText="Increase damage for explosive weapons"
+
+[R_Attachment_O_Heatsinks]
+DisplayName="Heatsinks"
+ModificationDescription="Reduce Weapon Heating - 5%"
+TooltipText="Reduce weapon heat buildup"
+
+[R_Attachment_O_PrimaryWeaponLoader]
+DisplayName="Primary Weapon Loader"
+ModificationDescription="Increase Primary Weapon Fire Rate - 4%"
+TooltipText="Increased rate of fire for primary weapon"
+
+[R_Attachment_O_SpecialWeaponLoader]
+DisplayName="Special Weapon Loader"
+ModificationDescription="Increase Special Weapon Fire Rate - 0.12 seconds"
+TooltipText="Increased rate of fire for secondary weapon"
+
+[R_Attachment_O_Weapons]
+DisplayName="Weapons"
+ModificationDescription="Increase Weapons Damage - 1.5%"
+TooltipText="Increase damage for all weapons"
+
+[R_Attachment_OA_ArmorPiercingMunitions]
+DisplayName="Advanced Armor Piercing Munitions"
+ModificationDescription="Increase Trace Bullet Damage - 5%"
+TooltipText="Increase damage for bullet weapons"
+
+[R_Attachment_OA_CoolingUnits]
+DisplayName="Advanced Cooling Units"
+ModificationDescription="Reduce Overheat Recover Time - 1.5 sec"
+TooltipText="Reduce overheat recovery time"
+
+[R_Attachment_OA_ExplosiveMunitions]
+DisplayName="Advanced Explosive Munitions"
+ModificationDescription="Increase Explosion Damage - 5%"
+TooltipText="Increase damage for explosive weapons"
+
+[R_Attachment_OA_Heatsinks]
+DisplayName="Advanced Heatsinks"
+ModificationDescription="Reduce Weapon Heating - 10%"
+TooltipText="Reduce weapon heat buildup"
+
+[R_Attachment_OA_PrimaryWeaponLoader]
+DisplayName="Advanced Primary Weapon Loader"
+ModificationDescription="Increase Primary Weapon Fire Rate - 8%"
+TooltipText="Increased rate of fire for primary weapon"
+
+[R_Attachment_OA_SpecialWeaponLoader]
+DisplayName="Advanced Special Weapon Loader"
+ModificationDescription="Increase Special Weapon Fire Rate - 0.25 seconds"
+TooltipText="Increased rate of fire for secondary weapon"
+
+[R_Attachment_OA_Weapons]
+DisplayName="Advanced Weapons"
+ModificationDescription="Increase Weapons Damage - 3%"
+TooltipText="Increase damage for all weapons"
+
+[R_Attachment_S_Armor]
+DisplayName="Armor"
+ModificationDescription="Decrease Damage Received - 4%"
+TooltipText="Decrease all damage received"
+
+[R_Attachment_S_ArmorPlating]
+DisplayName="Armor Plating"
+ModificationDescription="Increase Max Health/Decrease Damage Dealt - +100 HP/-3% Damage"
+TooltipText="Increase max health but decrease all weapon damage"
+
+[R_Attachment_S_ArmorSystems]
+DisplayName="Armor Systems"
+ModificationDescription="Increase Max Health/Decrease Damage Received - +25 HP/-2% Damage"
+TooltipText="Increase max health and decrease all damage taken"
+
+[R_Attachment_S_ArtilleryFocus]
+DisplayName="Artillery Focus"
+ModificationDescription="Increase Damage/Decrease Max Health - +6% Damage/-50 HP"
+TooltipText="Increase all weapon damage but decrease max health"
+
+[R_Attachment_S_ArtilleryPower]
+DisplayName="Artillery Power"
+ModificationDescription="Increase Damage/Increase Heating - +6% Damage/+10% Heating"
+TooltipText="Increase all weapon damage but also increase heat generation"
+
+[R_Attachment_S_FuelGenerator]
+DisplayName="Fuel Generator"
+ModificationDescription="Increase Fuel Regen - .3/Sec"
+TooltipText="Increase Fuel Regeneration Rate"
+
+[R_Attachment_S_FuelSystems]
+DisplayName="Fuel Systems"
+ModificationDescription="Increase Max Fuel/Increase Fuel Regen - +1 Fuel/+.15 fuel regen"
+TooltipText="Increase max fuel but increase fuel regeneration rate"
+
+[R_Attachment_S_Heatsinks]
+DisplayName="Heatsinks"
+ModificationDescription="Reduce Weapon Heating - 10%"
+TooltipText="Reduce weapon heat buildup"
+
+[R_Attachment_S_HeavyArmor]
+DisplayName="Heavy Armor"
+ModificationDescription="Increase Max Health/Decrease Boost Speed - +100 HP/-110 Boost"
+TooltipText="Increase max health but decrease boost speed"
+
+[R_Attachment_S_HeavyArtillery]
+DisplayName="Heavy Artillery"
+ModificationDescription="Increase Damage/Decrease Boost Speed - +6% Damage/-110 Boost"
+TooltipText="Increase all weapon damage but decrease boost speed"
+
+[R_Attachment_S_PropulsionFocus]
+DisplayName="Propulsion Focus"
+ModificationDescription="Increase Boost Speed/Decrease Max Health - +220 Boost/-50 HP"
+TooltipText="Increase boost speed but decrease maximum health"
+
+[R_Attachment_S_PropulsionThrusters]
+DisplayName="Propulsion Thrusters"
+ModificationDescription="Increase Boost Speed/Decrease Damage - +220 Boost/-3% Damage"
+TooltipText="Increase boost speed but decrease all weapon damage"
+
+[R_Attachment_S_ReinforcedArmor]
+DisplayName="Reinforced Armor"
+ModificationDescription="+50 Max Health"
+TooltipText="Increase max health"
+
+[R_Attachment_S_Thrusters]
+DisplayName="Thrusters"
+ModificationDescription="Increase Boost Forward Speed - 2.2 m/s" ; 1.1 unit/sec
+TooltipText="Increase Forward Boost Speed"
+
+[R_Attachment_S_Weapons]
+DisplayName="Weapons"
+ModificationDescription="Increase Weapons Damage - 3%"
+TooltipText="Increase damage for all weapons"
+
+[R_Attachment_S_WeaponSystems]
+DisplayName="Weapon Systems"
+ModificationDescription="Increase Damage/Decrease Weapon Heating - +1.5% Damage/-5% Heating"
+TooltipText="Increase all weapon damage and decrease heat generation"
+
+
+[R_DeathMessage]
+KilledString="killed"
+SuicideString="comitted suicide"
+SuicideKilledByWeaponString="Pilot Error"
+ForceFieldKilledByWeaponString="Electric Field"
+TurretString="a turret"
+SomeoneString=someone
+
+[R_DmgType]
+R_DamageWeaponName="unknown"
+
+[R_DmgType_AutoRifle]
+R_DamageWeaponName="SA Hawkins"
+
+[R_DmgType_AssaultRifle]
+R_DamageWeaponName="Assault Rifle"
+
+[R_DmgType_Cannon]
+R_DamageWeaponName="HEAT Cannon"
+
+[R_DmgType_Detonator]
+R_DamageWeaponName="Detonator"
+
+[R_DmgType_EMP]
+R_DamageWeaponName="EMP"
+
+[R_DmgType_Grenade]
+R_DamageWeaponName="H.E. Charge"
+
+[R_DmgType_GrenadeLauncher]
+R_DamageWeaponName="Grenade Launcher"
+
+[R_DmgType_GuidedMissile]
+R_DamageWeaponName="GuidedMissile"
+
+[R_DmgType_HomingMissile]
+R_DamageWeaponName="Hellfire Rockets"
+
+[R_DmgType_Machine]
+R_DamageWeaponName="Point-D Vulcan"
+
+[R_DmgType_Missile]
+R_DamageWeaponName="TOW Launcher"
+
+[R_DmgType_Repeater]
+R_DamageWeaponName="EOC Repeater"
+
+[R_DmgType_Seeker]
+R_DamageWeaponName="Seeker"
+
+[R_DmgType_Shotgun]
+R_DamageWeaponName="FLAK Cannon"
+
+[R_DmgType_Shrapnel]
+R_DamageWeaponName="SAARE"
+
+[R_DmgType_SlugRifle]
+R_DamageWeaponName="Slug Rifle"
+
+[R_DmgType_SMG]
+R_DamageWeaponName="Sub Machine Gun"
+
+[R_DmgType_Sniper]
+R_DamageWeaponName="SABOT Rifle"
+
+[R_DmgType_StickyBomb]
+R_DamageWeaponName="StickyBomb"
+
+[R_DmgType_TriSeeker]
+R_DamageWeaponName="Tri-Seeker"
+
+[R_DmgType_Turret]
+R_DamageWeaponName="Turret"
+
+[R_DmgType_Turret_Machine]
+R_DamageWeaponName="MG Turret"
+
+[R_DmgType_Turret_Homing]
+R_DamageWeaponName="Seeker Turret"
+
+[R_DmgType_Fell]
+R_DamageWeaponName="Gravity"
+
+[R_GameObjectives]
+ObjectiveNames[0]="None"
+ObjectiveNames[1]="Control Anti-air"
+ObjectiveNames[2]="Defend Anti-air"
+ObjectiveNames[3]="Collect E.U."
+ObjectiveNames[4]="Return E.U. to Base"
+ObjectiveNames[5]="Repair Mech"
+ObjectiveNames[6]="Defend Mech"
+ObjectiveNames[7]="Escort Battleship"
+ObjectiveNames[8]="Destroy Battleship"
+ObjectiveNames[9]="Defend Reactor"
+ObjectiveNames[10]="Destroy Reactor"
+ObjectiveNames[10]="Capture Silo"
+
+ObjectiveLabels[0]="NN"
+ObjectiveLabels[1]="AA"
+ObjectiveLabels[2]="AA"
+ObjectiveLabels[3]="EU"
+ObjectiveLabels[4]="DE"
+ObjectiveLabels[5]="RM"
+ObjectiveLabels[6]="DM"
+ObjectiveLabels[7]="BS"
+ObjectiveLabels[8]="BS"
+ObjectiveLabels[9]="RE"
+ObjectiveLabels[10]="RE"
+ObjectiveLabels[11]="MS"
+
+[R_GamePoints]
+MultiKillNames[0]=""
+MultiKillNames[1]="Kill"
+MultiKillNames[2]="DoubleKill"
+MultiKillNames[3]="TripleKill"
+MultiKillNames[4]="QuadraKill"
+MultiKillNames[5]="PentaKill"
+MultiKillNames[6]="HEXAKILL"
+KillStreakString="Kill Streak"
+EndKillStreakString="Ended Kill Streak"
+NewNemesisString="New Nemesis:"
+
+
+[R_GFx_MainMenu]
+Error_LoginFailed_Title="Login Failed"
+Error_LoginFailed_Text_InvalidUser="Wrong email maybe?"
+Error_LoginFailed_Text_WrongPassword="Wrong password maybe?"
+Error_LoginFailed_Text_GenericError="Server not available"
+Error_RegistrationFailed_Title="Registration Failed"
+Error_RegistrationFailed_Text="Error : "
+Error_RegistrationSucceed_Title="Registration Succeeded"
+Error_RegistrationSucceed_Text="Welcome! Now please login"
+Error_SyncingAccountFailed_Title="Syncing Account Failed"
+Error_SyncingAccountFailed_Text="Error : "
+Error_PlayerLogin_NoRPC_Title="Login Failed"
+Error_PlayerLogin_NoRPC_Text="Error : No Player Controller."
+Error_PlayerLogin_NotLoggedIn_Title="Login Failure"
+Error_PlayerLogin_NotLoggedIn_Text="You must logout first. This isn't allowed yet."
+Error_PlayerAccountCreate_Failed_Title="Account Creation Failure"
+Error_PlayerAccountCreate_Failed_Text="Error : Unknown"
+Error_InvalidMode_Title="Invalid Mode"
+Error_InvalidMode_NoRPC_Text="Map doesn't suppport mode"
+Error_NoServers_Title="Join Failed"
+Error_NoServers_Text="No servers found."
+Error_JoinGameFailed_Title="Join Game Failed"
+Error_JoinGameFailed_Text="Failed to join game."
+
+Error_PurchaseFailed_Generic_Title="Purchase failed"
+Error_PurchaseFailed_Generic_Text="Could not complete purchase, please try again"
+Error_PurchaseFailed_NoRoom_Text="No more room in inventory for the requested item"
+Error_PurchaseFailed_NewMech_Text="Could not add new mech to your garage"
+
+Loading_Purchase_Generic_Title="Purchasing"
+Loading_Purchase_Generic_Text="Waiting on server response"
+
+Loading_LoggingIn_Title="Logging In"
+Loading_LoggingIn_Text="Please wait..."
+Loading_Registering_Title="Registering"
+Loading_Registering_Text="Please wait..."
+Loading_SyncingAccount_Title="Syncing Account"
+Loading_SyncingAccount_Text="Please wait...\n"
+Loading_SyncingStats_Title="Syncing Stats"
+Loading_SyncingStats_Text="Please wait...\n"
+Loading_LoadingMap_Title="Loading Map..."
+Loading_LoadingMap_Text="This will only take a moment. Unless your computer is slow."
+Loading_LookingForServers_Title="Join Game"
+Loading_LookingForServers_Text="Looking for servers..."
+Loading_ServersFound_Title="Joining..."
+Loading_ServersFound_Text="Servers Found : "
+Loading_ConnectingToServer_Title="Connecting"
+Loading_ConnectingToServer_Text="Please wait..."
+
+Question_QuitConfirmation_Title="Exit"
+Question_QuitConfirmation_Text="Just making sure. Do you want to exit?"
+
+GameType_Deathmatch="Deathmatch"
+GameType_TeamDeathmatch="Team DM"
+GameType_Siege="Siege"
+GameType_Boss="Boss"
+GameType_MissileAssault="Missile Assault"
+
+MapDefinitionList[0]=(displayName="Andromeda")
+MapDefinitionList[1]=(displayName="Sahara")
+MapDefinitionList[2]=(displayName="Titan")
+MapDefinitionList[3]=(displayName="Alleys")
+MapDefinitionList[4]=(displayName="Luna")
+MapDefinitionList[5]=(displayName="Highways")
+MapDefinitionList[6]=(displayName="Forest")
+MapDefinitionList[7]=(displayName="Valkyrie")
+MapDefinitionList[8]=(displayName="Jackal")
+MapDefinitionList[9]=(displayName="Valyrie TEST")
+MapDefinitionList[10]=(displayName="Forest TEST2")
+
+[R_GFx_Options]
+Controls_InvertMouse="Invert Mouse"
+Controls_InvertTurn="Invert Turn"
+Controls_MouseSensitivity="Mouse Sensitivity"
+Controls_MouseSmoothing="Mouse Smoothing"
+Controls_KeyBindTitle="New Key Binding"
+Controls_KeyBindText="Press Any Key (or Esc to Cancel)"
+Controls_DoubleClickDodge="Double Tap to Boost"
+
+Game_FixedRadar="Lock Radar Rotation"
+Game_CockpitLag="Cockpit Lag"
+Game_CockpitColor="Cockpit Dash Color"
+
+Audio_MasterVolume="Master Volume"
+Audio_SFXVolume="Sound FX Volume"
+Audio_MusicVolume="Menu Music Volume"
+Audio_VoiceVolume="Cockpit Voice Volume"
+
+Voice_UsePushToTalk="Use Push-to-talk"
+Voice_MicVolume="Mic Volume"
+Voice_OtherPlayersVolume="Other Player Volume"
+
+Video_Resolution="Resolution"
+Video_WorldDetail="World Detail"
+Video_TextureDetail="Texture Detail"
+Video_ShadowDetail="Shadow Detail"
+Video_UseVSync="VSync"
+Video_UseMSAA="MSAA"
+Video_Fullscreen="Fullscreen"
+Video_SmoothFramerate="Capped Smooth Framerate"
+Video_PhysX="PhysX Particles"
+Video_FOV="Field of View"
+Video_DX11="DirectX11"
+Video_Bloom="Bloom"
+Video_DOF="Depth of Field"
+Video_MotionBlur="Motion Blur"
+Video_LensFlares="Lens Flares"
+Video_LightShafts="Light Shafts"
+Video_SSAO="Ambient Occlusion"
+Video_FogVolumes="Fog Volumes"
+
+CommandList[0]=(displayName="Move Forward")
+CommandList[1]=(displayName="Move Back")
+CommandList[2]=(displayName="Strafe Left")
+CommandList[3]=(displayName="Strafe Right")
+CommandList[4]=(displayName="Jump Thrust")
+CommandList[5]=(displayName="Primary Fire")
+CommandList[6]=(displayName="Secondary Fire")
+CommandList[7]=(displayName="Weapon Utility")
+CommandList[8]=(displayName="Boost/Dodge Modifier")
+CommandList[9]=(displayName="Use Item")
+CommandList[10]=(displayName="Interact")	
+CommandList[11]=(displayName="Special Ability")
+CommandList[12]=(displayName="Heal")
+CommandList[13]=(displayName="Toggle Map")
+CommandList[14]=(displayName="Next Item")
+CommandList[15]=(displayName="Previous Item")
+CommandList[16]=(displayName="Toggle Scoreboard")
+CommandList[17]=(displayName="Talk in Chat (All Players)")
+CommandList[18]=(displayName="Team Chat")
+CommandList[19]=(displayName="Spot Enemy")
+CommandList[20]=(displayName="Request Assistance")
+CommandList[21]=(displayName="Push-to-Talk")
+CommandList[22]=(displayName="Select Offensive Item")
+CommandList[23]=(displayName="Select Defensive Item")
+CommandList[24]=(displayName="Select Functional Item")
+
+CockpitColorList[0]=(displayName="Blue")
+CockpitColorList[1]=(displayName="Aqua")
+CockpitColorList[2]=(displayName="Green")
+CockpitColorList[3]=(displayName="Yellow")
+CockpitColorList[4]=(displayName="Orange")
+CockpitColorList[5]=(displayName="Red")
+CockpitColorList[6]=(displayName="Purple")
+CockpitColorList[7]=(displayName="Pink")
+CockpitColorList[8]=(displayName="Tan")
+CockpitColorList[9]=(displayName="Gray")
+CockpitColorList[10]=(displayName="Dark Gray")
+
+[R_GFx_Scoreboard]
+LocEnergyCollected="Energy Collected"
+LocEnergyLost="Energy Lost"
+LocEnergySpent="Energy Spent"
+LocEnergyTransferred="Energy Transferred"
+LocDamageToBattleship="Damage to Battleship"
+
+LocDamageSustained="Damage Sustained"
+LocHealedAmount="Healed Amount"
+LocHealingTime="Time Healing"
+LocHealedNumTimes="Times Healed"
+LocNPCsKilled="NPCs Killed"
+LocNPCsDeaths="Deaths from NPCs"
+LocTurretDeaths="Turret Deaths"
+LocRevengeKills="Revenge Kills"
+LocSaviorKills="Savior Kills"
+LocNumMultiKills="Multi-kills"
+LocAvengerKills="Avenger Kills"
+LocMVPName="MVP"
+LocKillLeader="Kill Leader"
+LocKillStreakBest="Best Kill Streak"
+LocMultiKillBest="Best Multi-kill"
+LocMostKilledPlayer="Most Killed"
+LocMostKilledBy="Most Killed By"
+LocMostUsedPrimary="Favorite Primary"
+LocMostUsedSecondary="Favorite Secondary"
+LocMostUsedItem="Favorite Item"
+locMostUsedAbility="Favorite Ability"
+
+[R_GFx_Visor]
+EnergyStatus_Acquiring="Acquiring Energy"
+EnergyStatus_Transferring="Transferring Energy"
+EnergyStatus_Done="Transfer Done"
+
+BattleshipStatus_EnRoute="En Route"
+BattleshipStatus_InRange="In Range"
+Battleship_Engine="Engine"
+
+ActivateTurret_Header="Activate Turret"
+ActivateTurret_Text="Press % to \nClaim turret for 10 EU"
+FeedTurret_Header="Feed Turret"
+FeedTurret_Text="Press % to \nIncrease turret lifetime for 10 EU"
+BaseLifter_Header="Use Base Lifter"
+BaseLifter_Text="Press % to \nReturn EU to the team base."
+BuyOffense_Header="Buy Item"
+BuyOffense_Text="Press % to \nRefill Offensive Item for 12 EU"
+BuyDefense_Header="Buy Item"
+BuyDefense_Text="Press % to \nRefill a Defensive Item for 12 EU"
+BuyFunctional_Header="Buy Item"
+BuyFunctional_Text="Press % to \nRefill a Functional for 12 EU"
+SwapMechs_Header="Mech Garage"
+SwapMechs_Text="Press % to \nReturn to Garage and swap mechs"
+EnergyStation_Header="Collecting Energy"
+EnergyStation_Text="Collect energy\nby staying within range of station"
+
+Objective_EnergySource_Name="Collect Energy"
+Objective_EnergySource_Label="E#"	; NOTE: the # is replaced by a number in code
+Objective_BaseLifter_Name="Deliver Energy"
+Objective_BaseLifter_Label="DE"
+Objective_Defend_AntiAir_Name="Defend Anti-Air"
+Objective_Secure_AntiAir_Name="Secure Anti-Air"
+Objective_AntiAir_Label="AA"
+Objective_Enemy_BattleShip_Name="Enemy Battleship"
+Objective_Defend_BattleShip_Name="Defend Battleship"
+Objective_BattleShip_Label="BS"
+Objective_Defend_Reactor_Name="Defend Reactor"
+Objective_Destroy_Reactor_Name="Destroy Reactor"
+Objective_Reactor_Label="RE"
+Objective_TeamFocusPoint_Name="Team Focus Point"
+Objective_TeamFocusPoint_Label="FP"
+Objective_MissileSilo_Name="Control Silo"
+Objective_MissileSilo_Label="S#"	; NOTE: the # is replaced by a number in code
+
+HologramName="Hologram"
+
+IndicatorName_Turret="Turret"
+IndicatorName_Battleship="Battleship"
+IndicatorName_EnergyStation="Energy Station"
+IndicatorName_AntiAir="Anti-Air"
+IndicatorName_BaseLifter="Base Lifter"
+IndicatorName_TeamFocusPoint="Team Focus Point"
+IndicatorName_EnemySpotted="Enemy Sighted"
+IndicatorName_BaseReactor="Base Reactor"
+IndicatorName_MissileSilo="Missile Silo"
+
+[R_HUD]
+Kill_Eliminated="ELIMINATED"
+Kill_EliminatedAssist="ELIMINATED (ASSIST)"
+Kill_DownedBy="DOWNED BY"
+Kill_Revenge="REVENGE KILL"
+Kill_Avenger="AVENGER"
+Kill_Savior="SAVIOR"
+Kill_AADefense="CONTROL DEFENDER"
+Kill_AAAttack="CONTROL ATTACKER"
+Kill_AAContested="CONTESTED CONTROL"
+
+Alert_BattleshipLaunching="Battleship Launching in 10 seconds"
+Alert_EnemyBattleshipLaunching="Enemy Battleship Launching in 10 seconds"
+Alert_BattleshipReachedBase="Battleship reached base"
+Alert_EnemyBattleshipReachedBase="Enemy Battleship reached base"
+Alert_BattleshipLaunched="Battleship Launched!"
+Alert_BattleshipDestroyed="Battleship Destroyed!"
+Alert_EnemyBattleshipLaunched="Enemy Battleship Launched!"
+Alert_EnemyBattleshipDestroyed="Enemy Battleship Destroyed!"
+Alert_BaseUnderAttack="Base is under attack!"
+Alert_EnemyBaseUnderAttack="Engaging Enemy Base!"
+Alert_YouAreTheBoss="You are the Boss!"
+Alert_DefendTeamReactor="Base Shield Down! Defend Reactor!"
+Alert_DestroyEnemyReactor="Enemy Base Shield Down! Destroy Reactor!"
+Alert_BaseHeavyDamage="Base has taken heavy damage!"
+Alert_EnemyBaseHeavyDamage="Enemy Base took heavy damage!"
+Alert_BaseCritical="Base health is critical!"
+Alert_EnemyBaseCritical="Enemy Base health is critical!"
+
+BigMsg_ScoreboardTitle="Scoreboard"
+BigMsg_YouHaveWonTheMatch="You Have Won the Match!"
+BigMsg_YouHaveLostTheMatch="You Have Lost the Match!"
+BigMsg_Stalemate="The Match is a Stalemate!"
+
+[R_Item_AreaRadar]
+DisplayName="RADAR"
+TooltipText="TEMP this is some tooltip text for the Area Radar"
+
+[R_Item_Blockade]
+DisplayName="BLOCKADE"
+TooltipText="Creates a sizeable, destroyable wall that cannot be penetrated by weapons or mechs.\n\nBlockades have many uses including blocking choke points and absorbing incoming damage."
+
+[R_Item_Base]
+DisplayName="Unknown"
+TooltipText=""
+
+[R_Item_DetectTargeting]
+DisplayName="SENSOR"
+TooltipText="Who knows what secrets the sensor holds?"
+
+[R_Item_Detonator]
+DisplayName="DETONATOR"
+TooltipText="A slow, hovering, low-damage explosive charge with a large damage radius.\n\nActivate item a second time to detonate the charge in midair."
+
+[R_Item_Drone]
+DisplayName="Drone Fighter"
+TooltipText="Fighting Drone"
+
+[R_Item_EMP]
+DisplayName="EMP"
+TooltipText="A large energy projectile that explodes, sending out a large electromagnetic pulse.\n\nAll machinery within the radius of the explosion will shut down for a short period of time."
+
+[R_Item_Grenade]
+DisplayName="H.E.CHARGE"
+TooltipText="High-explosive charge packed with rubble, usually scratch-built from spare parts and laced with valuable EU.\n\nIn a close battle, these grenades can be the difference between life and death. Hold down the firing mechanism and release for increased range."
+
+[R_Item_GuidedMissile]
+DisplayName="GUIDED MISSILE"
+TooltipText=""
+
+[R_Item_Hologram]
+DisplayName="HOLOGRAM"
+TooltipText="A projection system that generates a mirror image of the pilot's mech. This works especially well as a decoy over longer ranges."
+
+[R_Item_Shield]
+DisplayName="SHIELD"
+TooltipText="A projectile that creates a magnetic sphere of defensive particles, forming a shield. It prevents all trace or projectile fire from passing through it from the exterior. Keep that in mind when firing explosives."
+
+[R_Item_StickyBomb]
+DisplayName="STICKY BOMB"
+TooltipText="A proximity mine that can stick to nearly any surface. "
+
+[R_Item_LaserMine]
+DisplayName="Laser Trip Mine"
+TooltipText="A large blast radius mine with a laser tripwire."
+
+[R_Item_Teleporter]
+DisplayName="TELEPORTER"
+TooltipText="Portal Teleporter"
+
+[R_Item_Turret_Homing]
+DisplayName="HM TURRET"
+TooltipText="Deploys an auto-tracking turret equipped with a missile device that can lock onto targets."
+
+[R_Item_Turret_MG]
+DisplayName="MG TURRET"
+TooltipText="Auto-tracking motion sensors allow this turret to lock on to enemy movements and shoot thousands of rounds at targets. They have limited armor, but when used in conjunction with mech fire support, they can become a deadly combination."
+
+[R_Item_Turret_Rocket]
+DisplayName="R TURRET"
+TooltipText="This turret fires powerful AM rockets. While it's a valuable ally when defending choke points, the turret has a slow rate of fire."
+
+
+[R_Mech_CamoPresets]
+CamoPatternNames[0]=None
+CamoPatternNames[1]=Jungle Prime
+CamoPatternNames[2]=Desert Prime
+CamoPatternNames[3]=Water Prime
+CamoPatternNames[4]=Night Pools
+CamoPatternNames[5]=Lime Digital
+CamoPatternNames[6]=Aqua Digital
+CamoPatternNames[7]=Bubblegum Prime
+CamoPatternNames[8]=Swamp Pools
+CamoPatternNames[9]=Bengal Crease
+
+[R_MechInfo_A]
+OffenseSkills[0]=(displayName="Increase Weapon Damage",tooltipText="Increase damage for all primary and secondary weapons")
+OffenseSkills[1]=(displayName="Primary Weapon Fire Rate",tooltipText="Faster rate of fire for primary weapon")
+OffenseSkills[2]=(displayName="Shooting Radar Signature Distance",tooltipText="")
+OffenseSkills[3]=(displayName="Item Damage",tooltipText="")
+OffenseSkills[4]=(displayName="Weapon Heat Reduction",tooltipText="")
+OffenseSkills[5]=(displayName="Special Weapon Fire Rate",tooltipText="")
+OffenseSkills[6]=(displayName="Decrease Damage From Items",tooltipText="")
+OffenseSkills[7]=(displayName="Overheat Recover Time",tooltipText="")
+OffenseSkills[8]=(displayName="Increase Trace Damage",tooltipText="")
+OffenseSkills[9]=(displayName="Increase Explosion Damage",tooltipText="")
+OffenseSkills[10]=(displayName="Increase All Damage",tooltipText="")
+
+DefenseSkills[0]=(displayName="Heal Startup Time",tooltipText="")
+DefenseSkills[1]=(displayName="Dodge Speed",tooltipText="")
+DefenseSkills[2]=(displayName="Decrease Damage From Weapons",tooltipText="")
+DefenseSkills[3]=(displayName="Repair Rate",tooltipText="")
+DefenseSkills[4]=(displayName="Radar Distance",tooltipText="")
+DefenseSkills[5]=(displayName="Health",tooltipText="")
+DefenseSkills[6]=(displayName="Weapon Heat Reduction",tooltipText="")
+DefenseSkills[7]=(displayName="Run Speed",tooltipText="")
+DefenseSkills[8]=(displayName="Trace Damage Reduction",tooltipText="")
+DefenseSkills[9]=(displayName="Explosion Damage Reduction",tooltipText="")
+DefenseSkills[10]=(displayName="Decrease All Damage Received",tooltipText="")
+
+MovementSkills[0]=(displayName="Run Speed",tooltipText="")
+MovementSkills[1]=(displayName="Acceleration Rate",tooltipText="")
+MovementSkills[2]=(displayName="Energy Capacity",tooltipText="")
+MovementSkills[3]=(displayName="Thruster Regen Rate",tooltipText="")
+MovementSkills[4]=(displayName="Boost Forward Speed",tooltipText="")
+MovementSkills[5]=(displayName="Max Thruster Energy",tooltipText="")
+MovementSkills[6]=(displayName="Reduce Dodge Cooldown",tooltipText="")
+MovementSkills[7]=(displayName="Health",tooltipText="")
+MovementSkills[8]=(displayName="Radar Signature Distance",tooltipText="")
+MovementSkills[9]=(displayName="Radar Distance",tooltipText="")
+MovementSkills[10]=(displayName="Walk/Run/Boost Speed",tooltipText="")
+
+[R_MechInfo_B]
+OffenseSkills[0]=(displayName="Inc Weapon Damage",tooltipText="")
+OffenseSkills[1]=(displayName="Primary Weapon Fire Rate",tooltipText="")
+OffenseSkills[2]=(displayName="Shooting Radar Signature Distance",tooltipText="")
+OffenseSkills[3]=(displayName="Item Damage",tooltipText="")
+OffenseSkills[4]=(displayName="Weapon Heat Reduction",tooltipText="")
+OffenseSkills[5]=(displayName="Special Weapon Fire Rate",tooltipText="")
+OffenseSkills[6]=(displayName="Decrease Damage From Items",tooltipText="")
+OffenseSkills[7]=(displayName="Overheat Recover Time",tooltipText="")
+OffenseSkills[8]=(displayName="Increase Trace Damage",tooltipText="")
+OffenseSkills[9]=(displayName="Increase Explosion Damage",tooltipText="")
+OffenseSkills[10]=(displayName="Increase All Damage",tooltipText="")
+
+DefenseSkills[0]=(displayName="Heal Startup Time",tooltipText="")
+DefenseSkills[1]=(displayName="Dodge Speed",tooltipText="")
+DefenseSkills[2]=(displayName="Decrease Damage From Weapons",tooltipText="")
+DefenseSkills[3]=(displayName="Repair Rate",tooltipText="")
+DefenseSkills[4]=(displayName="Radar Distance",tooltipText="")
+DefenseSkills[5]=(displayName="Health",tooltipText="")
+DefenseSkills[6]=(displayName="Weapon Heat Reduction",tooltipText="")
+DefenseSkills[7]=(displayName="Run Speed",tooltipText="")
+DefenseSkills[8]=(displayName="Trace Damage Reduction",tooltipText="")
+DefenseSkills[9]=(displayName="Explosion Damage Reduction",tooltipText="")
+DefenseSkills[10]=(displayName="Decrease All Damage Received",tooltipText="")
+
+MovementSkills[0]=(displayName="Run Speed",tooltipText="")
+MovementSkills[1]=(displayName="Acceleration Rate",tooltipText="")
+MovementSkills[2]=(displayName="Energy Capacity",tooltipText="")
+MovementSkills[3]=(displayName="Thruster Regen Rate",tooltipText="")
+MovementSkills[4]=(displayName="Boost Forward Speed",tooltipText="")
+MovementSkills[5]=(displayName="Max Thruster Energy",tooltipText="")
+MovementSkills[6]=(displayName="Reduce Dodge Cooldown",tooltipText="")
+MovementSkills[7]=(displayName="Health",tooltipText="")
+MovementSkills[8]=(displayName="Radar Signature Distance",tooltipText="")
+MovementSkills[9]=(displayName="Radar Distance",tooltipText="")
+MovementSkills[10]=(displayName="Walk/Run/Boost Speed",tooltipText="")
+
+[R_MechInfo_C]
+OffenseSkills[0]=(displayName="Inc Weapon Damage",tooltipText="")
+OffenseSkills[1]=(displayName="Primary Weapon Fire Rate",tooltipText="")
+OffenseSkills[2]=(displayName="Shooting Radar Signature Distance",tooltipText="")
+OffenseSkills[3]=(displayName="Item Damage",tooltipText="")
+OffenseSkills[4]=(displayName="Weapon Heat Reduction",tooltipText="")
+OffenseSkills[5]=(displayName="Special Weapon Fire Rate",tooltipText="")
+OffenseSkills[6]=(displayName="Decrease Damage From Items",tooltipText="")
+OffenseSkills[7]=(displayName="Overheat Recover Time",tooltipText="")
+OffenseSkills[8]=(displayName="Increase Trace Damage",tooltipText="")
+OffenseSkills[9]=(displayName="Increase Explosion Damage",tooltipText="")
+OffenseSkills[10]=(displayName="Increase All Damage",tooltipText="")
+
+DefenseSkills[0]=(displayName="Heal Startup Time",tooltipText="")
+DefenseSkills[1]=(displayName="Dodge Speed",tooltipText="")
+DefenseSkills[2]=(displayName="Decrease Damage From Weapons",tooltipText="")
+DefenseSkills[3]=(displayName="Repair Rate",tooltipText="")
+DefenseSkills[4]=(displayName="Radar Distance",tooltipText="")
+DefenseSkills[5]=(displayName="Health",tooltipText="")
+DefenseSkills[6]=(displayName="Weapon Heat Reduction",tooltipText="")
+DefenseSkills[7]=(displayName="Run Speed",tooltipText="")
+DefenseSkills[8]=(displayName="Trace Damage Reduction",tooltipText="")
+DefenseSkills[9]=(displayName="Explosion Damage Reduction",tooltipText="")
+DefenseSkills[10]=(displayName="Decrease All Damage Received",tooltipText="")
+
+MovementSkills[0]=(displayName="Run Speed",tooltipText="")
+MovementSkills[1]=(displayName="Acceleration Rate",tooltipText="")
+MovementSkills[2]=(displayName="Energy Capacity",tooltipText="")
+MovementSkills[3]=(displayName="Thruster Regen Rate",tooltipText="")
+MovementSkills[4]=(displayName="Boost Forward Speed",tooltipText="")
+MovementSkills[5]=(displayName="Max Thruster Energy",tooltipText="")
+MovementSkills[6]=(displayName="Reduce Dodge Cooldown",tooltipText="")
+MovementSkills[7]=(displayName="Health",tooltipText="")
+MovementSkills[8]=(displayName="Radar Signature Distance",tooltipText="")
+MovementSkills[9]=(displayName="Radar Distance",tooltipText="")
+MovementSkills[10]=(displayName="Walk/Run/Boost Speed",tooltipText="")
+
+
+[R_MechSetup]
+MechSelectionTypes[0]=(displayName="Light")
+MechSelectionTypes[1]=(displayName="Medium")
+MechSelectionTypes[2]=(displayName="Heavy")
+
+;----------------
+MechAUpperPartStyles[0]=(displayName="Mobi")
+MechAUpperPartStyles[1]=(displayName="Spree")
+MechAUpperPartStyles[2]=(displayName="Boot")
+MechAUpperPartStyles[3]=(displayName="Zos")
+MechAUpperPartStyles[4]=(displayName="Kerby")
+MechAUpperPartStyles[5]=(displayName="Nief")
+MechAUpperPartStyles[6]=(displayName="Proct")
+MechAUpperPartStyles[7]=(displayName="Charge")
+
+MechAMidPartStyles[0]=(displayName="Mobi")
+MechAMidPartStyles[1]=(displayName="Spree")
+MechAMidPartStyles[2]=(displayName="Boot")
+MechAMidPartStyles[3]=(displayName="Zos")
+MechAMidPartStyles[4]=(displayName="Kerby")
+MechAMidPartStyles[5]=(displayName="Nief")
+MechAMidPartStyles[6]=(displayName="Proct")
+MechAMidPartStyles[7]=(displayName="Charge")
+
+MechAArmPartStyles[0]=(displayName="Mobi")
+MechAArmPartStyles[1]=(displayName="Spree")
+MechAArmPartStyles[2]=(displayName="Boot")
+MechAArmPartStyles[3]=(displayName="Zos")
+MechAArmPartStyles[4]=(displayName="Kerby")
+MechAArmPartStyles[5]=(displayName="Nief")
+MechAArmPartStyles[6]=(displayName="Proct")
+MechAArmPartStyles[7]=(displayName="Charge")
+
+MechALowerPartStyles[0]=(displayName="Mobi")
+MechALowerPartStyles[1]=(displayName="Spree")
+MechALowerPartStyles[2]=(displayName="Boot")
+MechALowerPartStyles[3]=(displayName="Zos")
+MechALowerPartStyles[4]=(displayName="Kerby")
+MechALowerPartStyles[5]=(displayName="Nief")
+MechALowerPartStyles[6]=(displayName="Proct")
+MechALowerPartStyles[7]=(displayName="Charge")
+
+;-------------------
+MechBUpperPartStyles[0]=(displayName="Patrick")
+MechBUpperPartStyles[1]=(displayName="Muller")
+MechBUpperPartStyles[2]=(displayName="Hiefram")
+MechBUpperPartStyles[3]=(displayName="Hon")
+MechBUpperPartStyles[4]=(displayName="Res")
+MechBUpperPartStyles[5]=(displayName="Civ")
+MechBUpperPartStyles[6]=(displayName="Jobs")
+MechBUpperPartStyles[7]=(displayName="Brommens")
+MechBUpperPartStyles[8]=(displayName="Vytro")
+
+MechBMidPartStyles[0]=(displayName="Patrick")
+MechBMidPartStyles[1]=(displayName="Muller")
+MechBMidPartStyles[2]=(displayName="Hiefram")
+MechBMidPartStyles[3]=(displayName="Hon")
+MechBMidPartStyles[4]=(displayName="Res")
+MechBMidPartStyles[5]=(displayName="Civ")
+MechBMidPartStyles[6]=(displayName="Jobs")
+MechBMidPartStyles[7]=(displayName="Brommens")
+MechBMidPartStyles[8]=(displayName="Vytro")
+
+MechBArmPartStyles[0]=(displayName="Patrick")
+MechBArmPartStyles[1]=(displayName="Muller")
+MechBArmPartStyles[2]=(displayName="Hiefram")
+MechBArmPartStyles[3]=(displayName="Hon")
+MechBArmPartStyles[4]=(displayName="Res")
+MechBArmPartStyles[5]=(displayName="Civ")
+MechBArmPartStyles[6]=(displayName="Jobs")
+MechBArmPartStyles[7]=(displayName="Brommens")
+MechBArmPartStyles[8]=(displayName="Vytro")
+
+MechBLowerPartStyles[0]=(displayName="Patrick")
+MechBLowerPartStyles[1]=(displayName="Muller")
+MechBLowerPartStyles[2]=(displayName="Hiefram")
+MechBLowerPartStyles[3]=(displayName="Hon")
+MechBLowerPartStyles[4]=(displayName="Res")
+MechBLowerPartStyles[5]=(displayName="Civ")
+MechBLowerPartStyles[6]=(displayName="Jobs")
+MechBLowerPartStyles[7]=(displayName="Brommens")
+MechBLowerPartStyles[8]=(displayName="Vytro")
+
+;-------------------
+MechCUpperPartStyles[0]=(displayName="Cupcake")
+MechCUpperPartStyles[1]=(displayName="Brass")
+MechCUpperPartStyles[2]=(displayName="36M")
+MechCUpperPartStyles[3]=(displayName="Domoff")
+MechCUpperPartStyles[4]=(displayName="Falum")
+
+MechCMidPartStyles[0]=(displayName="Cupcake")
+MechCMidPartStyles[1]=(displayName="Brass")
+MechCMidPartStyles[2]=(displayName="36M")
+MechCMidPartStyles[3]=(displayName="Domoff")
+MechCMidPartStyles[4]=(displayName="Falum")
+
+MechCArmPartStyles[0]=(displayName="Cupcake")
+MechCArmPartStyles[1]=(displayName="Brass")
+MechCArmPartStyles[2]=(displayName="36M")
+MechCArmPartStyles[3]=(displayName="Domoff")
+MechCArmPartStyles[4]=(displayName="Falum")
+
+MechCLowerPartStyles[0]=(displayName="Cupcake")
+MechCLowerPartStyles[1]=(displayName="Brass")
+MechCLowerPartStyles[2]=(displayName="36M")
+MechCLowerPartStyles[3]=(displayName="Domoff")
+MechCLowerPartStyles[4]=(displayName="Falum")
+
+MechBoosterStyles[0]=(displayName="Default")
+MechBoosterStyles[1]=(displayName="Blue")
+MechBoosterStyles[2]=(displayName="Bright Red")
+MechBoosterStyles[3]=(displayName="Yellow")
+MechBoosterStyles[4]=(displayName="Light Blue")
+MechBoosterStyles[5]=(displayName="Wide Blue")
+MechBoosterStyles[6]=(displayName="Firework")
+MechBoosterStyles[7]=(displayName="Red")
+MechBoosterStyles[8]=(displayName="Pink")
+MechBoosterStyles[9]=(displayName="Thin Purple")
+MechBoosterStyles[10]=(displayName="Purple")
+MechBoosterStyles[11]=(displayName="Wide Blue")
+MechBoosterStyles[12]=(displayName="Gray Smoke")
+MechBoosterStyles[13]=(displayName="Orange Smoke")
+MechBoosterStyles[14]=(displayName="Yellow Smoke")
+MechBoosterStyles[15]=(displayName="White Smoke")
+
+MechArmorStyles[0]=(displayName="Volna")
+MechArmorStyles[1]=(displayName="default 2")
+MechArmorStyles[2]=(displayName="default 3")
+
+MechDroneStyles[0]=(displayName="RD-TR1")
+MechDroneStyles[1]=(displayName="RD-ZAP")
+MechDroneStyles[2]=(displayName="RD-T<3")
+MechDroneStyles[3]=(displayName="RD-H20")
+
+[R_MechSubType_Base]
+DisplayName="MechSubType"
+Description="Default Description"
+TooltipText="Default Tooltip Text"
+
+[R_MechSubType_A_Assault]
+DisplayName="Assault"
+Description="TEMP An small assault mech"
+TooltipText="TEMP Some more detailed information about this Assault Mech"
+
+[R_MechSubType_A_Infiltrator]
+DisplayName="Infiltrator"
+Description="TEMP A small sneaky mech"
+TooltipText=""
+
+[R_MechSubType_A_Scout]
+DisplayName="Scout"
+Description="TEMP A fast scout style mech"
+TooltipText=""
+
+[R_MechSubType_A_Sniper]
+DisplayName="Sniper"
+Description="TEMP A fast long-range sniper style mech"
+TooltipText=""
+
+[R_MechSubType_A_Technician]
+DisplayName="Technician"
+Description="TEMP A small repair mech"
+TooltipText=""
+
+[R_MechSubType_B_Bruiser]
+DisplayName="Bruiser"
+Description="TEMP A medium fighter"
+TooltipText=""
+
+[R_MechSubType_B_Demolition]
+DisplayName="Demolition"
+Description="TEMP A medium wrecking ball"
+TooltipText=""
+
+[R_MechSubType_B_Forger]
+DisplayName="Forger"
+Description="TEMP A medium something something"
+TooltipText=""
+
+[R_MechSubType_B_Raider]
+DisplayName="Raider"
+Description="TEMP A small fighter"
+TooltipText=""
+
+[R_MechSubType_B_Sharpshooter]
+DisplayName="Sharpshooter"
+Description="TEMP A long-range high damage configuration for skilled players"
+TooltipText=""
+
+[R_MechSubType_C_Brawler]
+DisplayName="Brawler"
+Description="TEMP A heavy fighter"
+TooltipText=""
+
+[R_MechSubType_C_Grenadier]
+DisplayName="Grenadier"
+Description="TEMP A heavy grenade throwing mech"
+TooltipText=""
+
+[R_MechSubType_C_Mortarer]
+DisplayName="Mortarer"
+Description="TEMP A heavy mortar dude"
+TooltipText=""
+
+[R_MechSubType_C_Rocketeer]
+DisplayName="Rocketeer"
+Description="TEMP A heavy rocket man"
+TooltipText=""
+
+
+[R_PlayerController]
+Lobby_MatchHasStarted="Match Has Started"
+
+[R_TeamDeathmatch]
+VotesToResign="Votes to Resign"
+Team0Resigns="TEAM 0 RESIGNS by 2/3rds majority"
+Team1Resigns="TEAM 1 RESIGNS by 2/3rds majority"
+
+[R_TeamGameMessage]
+RequestTeamSwapPrefix=""
+RequestTeamSwapPostfix="is requesting a team swap."
+YouAreOnBlueMessage="You are on Sentium"
+YouAreOnRedMessage="You are on Prosk"
+
+[R_TeamInfo]
+TeamNames[0]="Sentium"
+TeamNames[1]="Prosk"
+
+[R_Weap_AssaultRifle]
+DisplayName="Assault Rifle"
+TooltipText="A rapid fire weapon that can output damage consistently from all ranges."
+
+[R_Weap_AutoRifle]
+DisplayName="SA Hawkins"
+TooltipText="A long-range rifle with twin barrels to allow for a fast rate of fire."
+
+[R_Weap_CannonBall]
+DisplayName="HEAT Cannon"
+TooltipText="A medium-range, chargeable cannon that deals high damage on direct impact. HOLD the firing mechanism to CHARGE for a stronger shot."
+
+[R_Weap_GrenadeLauncher]
+DisplayName="Grenade Launcher"
+TooltipText="Fires an explosive mine that can be manually detonated. Use the weapon utility to detonate."
+
+[R_Weap_HomingMissile]
+DisplayName="Hellfire Missiles"
+TooltipText="Fires a volley of high-damage missiles that can lock on to targets. Use the weapon utility to Lock-On to targets"
+
+[R_Weap_Machine]
+DisplayName="Point-D Vulcan"
+TooltipText="A high-damage, rapid-firing suppression cannon. Shreds enemies at close range, but is less reliable at a distance."
+
+[R_Weap_MiniShotgun]
+DisplayName="Mini Flak Cannon"
+TooltipText="A smaller flak type weapon. Geared for rapid fire and high damage output. Brutal at close ranges, but ineffective at longer distances."
+
+[R_Weap_MissileLauncher]
+DisplayName="TOW Rocket"
+TooltipText="Fires an RPG-like explosive that can be detonated in midair. Press the firing mechanism a second time to detonate. "
+
+[R_Weap_Portal]
+DisplayName="Portal Gun"
+TooltipText="Open portals between locations"
+
+[R_Weap_RepairTorch]
+DisplayName="Repair Torch"
+TooltipText="Manufactured to aid allies in battle by reconstructing their Armor. Can transform itself to deconstruct enemies' Armor when needed."
+
+[R_Weap_Repeater]
+DisplayName="EOC Repeater"
+TooltipText="Chain fires explosive pucks that stick to surfaces. Charging increases amount of pucks fired. HOLD the firing mechanism to load additional pucks."
+
+[R_Weap_Seeker]
+DisplayName="Seeker"
+TooltipText="A quick firing, missile launching system with a built-in targeting system."
+
+[R_Weap_Shotgun]
+DisplayName="Flak Cannon"
+TooltipText="A slow-firing, high-damage shrapnel weapon. Brutal at close ranges, but ineffective at longer distances."
+
+[R_Weap_ShrapnelLauncher]
+DisplayName="SAARE"
+TooltipText="Converts heat into a scatter of high explosive projectiles."
+
+[R_Weap_SlugRifle]
+DisplayName="Slug Rifle"
+TooltipText="A highly accurate, long-range rifle. Outpowered at close ranges but highly effective when used from afar."
+
+[R_Weap_SMG]
+DisplayName="Sub Machine Gun"
+TooltipText="A short-barreled, rapid-fire weapon that excels at close ranges. The short barrel renders it less effective at a distance."
+
+[R_Weap_Sniper]
+DisplayName="Sabot Rifle"
+TooltipText=A long-range, magnet-based sniper with increased damage and accuracy when zoomed. Use the weapon utility function to Zoom-In for magnified vision. 
+
+[R_Weap_TriSeeker]
+DisplayName="Tri-Seeker"
+TooltipText="Similar to the Seeker, but launches 3 missiles at a target. Unfortunately by increasing its power, it requires a longer reload time."
+
+

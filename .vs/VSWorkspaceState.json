@@ -4,9 +4,11 @@
     "\\PAXPlus",
     "\\PAXPlus\\Hawken",
     "\\PAXPlus\\HawkenGame",
+    "\\PAXPlus\\HawkenGame\\Localization",
+    "\\PAXPlus\\HawkenGame\\Localization\\INT",
     "\\PAXPlus\\Hawken\\HawkenGame",
     "\\PAXPlus\\Hawken\\HawkenGame\\Config"
   ],
-  "SelectedNode": "\\PAXPlus\\Hawken\\HawkenGame\\Config\\HawkenMechs.ini",
+  "SelectedNode": "\\PAXPlus\\Hawken\\HawkenGame\\Config\\HawkenGame.ini",
   "PreviewInSolutionExplorer": false
 }
