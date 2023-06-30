@@ -97,9 +97,16 @@ Default Weapons: SA-Hawkins and Slug Rifle
 Default Weapons: Mini-flak and Flak Cannon, also intended to work with HEAT Cannon
 -Secondary: TOW Rocket
 
+###Technician*
+-Ability: Damage Absorb
+Default Weapons: SA-Hawkins and Seeker
+-Secondary: Helix Repair Torch
+*Breakthroughs in material science and nanotechnology allow the Technician to repair allies or dismantle enemies.
+The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid firing Seeker launcher.
+
 ##B-Class
 ###Assault
--Ability: Damage Absorb
+-Ability: Coolant
 -Default Weapons: SMC & Point-D Vulcan, also intended to work with Assault Rifle
 -Secondary: TOW Rocket
 
@@ -166,6 +173,48 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 
 #Changelog
 
+-1.5:	
+		PAXPlus now uses UE Decompressor created by Gildor (https://www.gildor.org/downloads) as part of the installation process.
+
+		Added Technician preset. You love it, you hate it, it's in PAX now. Stats identical to 2017 patch.
+		###Technician*
+		-Ability: Damage Absorb
+		Default Weapons: SA-Hawkins and Seeker
+		-Secondary: Helix Repair Torch
+		*Breakthroughs in material science and nanotechnology allow the Technician to repair allies or dismantle enemies in the middle of combat. The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid firing light Seeker launcher.
+
+		Added Demolisher preset. Inspired by a PAX loadout, the long awaited Grenade Launcher and HEAT Cannon B-Class.		
+		###Demolisher
+		-Ability: Ballistic Barrage
+		Default Weapons: Flak Cannon and HEAT Cannon. Also intended to work with the EOC Repeater
+		-Secondary: Grenade Launcher
+		Suppression vehicle, excels at filling choke points and objectives with explosions.
+		
+		The Demolisher is equipped with powerful close and mid-range explosive weapons to bombard tight enemy formations, and can be just as deadly on the open field.  It's Barrage ability gives it an extra bit of firepower in critical situations.
+
+		Armor: 530
+		Fuel Tank, Regen: 90L, 12L/s
+		Boost Speed: 32m/s
+		Ground Speed: 18.25m/s
+		Radar: 110m
+		Overheat time: 5.5s
+
+		Changed Assault preset to MechSubtype 7.
+		Changed Reaper preset to MechSubtype 3.
+		Decreased Prototype Preadator heat generation by 34%.
+		Changed MechSubtype 0 to TOW & Ballistic Barrage for Berserker.
+		Changed MechSubtype 4 to Helix Repair Torch & Damage Absorb for Technician.
+		Changed MechSubtype 7 to TOW & Weapons Coolant for Assault.
+		Changed Teleporter uses to 0. Effectivly disables the item.
+		Changed Combat Drone uses to 1. Reduced Combat Drone Health to 130.
+		Changed Blockade to be closer to later builds. Health 575, ShieldSize 0.25, MaxSize 1, ExpandTime 0.75s, ContractTime 1s, Lifespan 13s
+		Changed Shield Health to 450
+		Decreased Turret Health to 198, decreased Turret TargetingRange to 11500u
+		Increased MG Turret damage to 6.5
+		Decreased Rocket Turret damage to 40
+		Decreased Seeker Turret damage to 35
+		Increased ThrusterVerticalSpeed from 350 to 700.
+		Increased AccelRate from 420 to 1260
 -1.4:	Added Low and Medium presets for graphics through new HawkenSystemSettings.ini files.
 		Corrected repair rate from 35/s across the board to 45/s for A-Class, 55/s for B-Class, and 65/s for C-Class
 		Corrected Seeker and Tri-Seeker splash radius from 57.5u to 575u.

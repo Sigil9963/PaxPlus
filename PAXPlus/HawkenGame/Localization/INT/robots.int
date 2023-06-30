@@ -17,7 +17,7 @@ Description="An advanced active camouflage cloaking that masks your visibility f
 
 [R_Ability_Coolant]
 AbilityName = "Weapons Coolant"
-Description="No weapon heat buildup for a period of time"
+Description="Prevent weapons from generating heat for a period of time"
 
 [R_Ability_FuelReplenish]
 AbilityName="Fuel Reserves"
@@ -1144,7 +1144,7 @@ DisplayName="Portal Gun"
 TooltipText="Open portals between locations"
 
 [R_Weap_RepairTorch]
-DisplayName="Repair Torch"
+DisplayName="Helix Repair Torch"
 TooltipText="Manufactured to aid allies in battle by reconstructing their Armor. Can transform itself to deconstruct enemies' Armor when needed."
 
 [R_Weap_Repeater]
