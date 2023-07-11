@@ -17,7 +17,7 @@ Description="An advanced active camouflage cloaking that masks your visibility f
 
 [R_Ability_Coolant]
 AbilityName = "Weapons Coolant"
-Description="Prevent weapons from generating heat for a period of time"
+Description="Prevent weapons from generating heat for a period of time."
 
 [R_Ability_FuelReplenish]
 AbilityName="Fuel Reserves"
@@ -25,7 +25,7 @@ Description="Quickly replenish a good amount of thruster fuel from a reserve tan
 
 [R_Ability_HeavyMobile]
 AbilityName="Mobile Turret"
-Description="Convert to a reduced damage heavy defense mode with more mobility than standard"
+Description="Convert to a heavy defense mode with more mobility than standard. While in turret mode, reduce damage taken by 60%."
 
 [R_Ability_HeavyMode]
 AbilityName="Artillery Turret"
@@ -33,7 +33,7 @@ Description="Convert to a reduced damage heavy defense mode with increased damag
 
 [R_Ability_HeavyRegen]
 AbilityName="Fortified Turret"
-Description="Convert to a reduced damage heavy defense mode with a constant slow armor repair"
+Description="Convert to a heavy defense mode that gives constant slow armor repair. While in turret mode, reduce damage taken by 10% and repair 15 armor/s."
 
 [R_Ability_MovementIncrease]
 AbilityName="Blitz"

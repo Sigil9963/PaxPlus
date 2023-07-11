@@ -2,11 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\Hawken",
-    "\\HawkenGame",
-    "\\HawkenGame\\CookedPC",
     "\\Hawken\\HawkenGame",
-    "\\Hawken\\HawkenGame\\Config"
+    "\\LowGraphicsPreset",
+    "\\LowGraphicsPreset\\Hawken",
+    "\\LowGraphicsPreset\\Hawken\\HawkenGame",
+    "\\LowGraphicsPreset\\Hawken\\HawkenGame\\Config",
+    "\\MediumGraphicsPreset",
+    "\\MediumGraphicsPreset\\Hawken",
+    "\\MediumGraphicsPreset\\Hawken\\HawkenGame",
+    "\\MediumGraphicsPreset\\Hawken\\HawkenGame\\Config"
   ],
-  "SelectedNode": "\\Hawken\\HawkenGame\\Config\\HawkenEngine.ini",
+  "SelectedNode": "\\HawkenGame\\MechSetup_default.txt",
   "PreviewInSolutionExplorer": false
 }

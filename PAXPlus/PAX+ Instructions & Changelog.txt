@@ -77,7 +77,7 @@
 #Mech Presets:
 ##A-Class
 ###Berserker
--Ability: Damage Absorb
+-Ability: Ballistic Barrage
 -Default Weapons: SMC & Point-D Vulcan, also intended to work with Assault Rifle
 -Secondary: TOW Rocket
 
@@ -87,7 +87,7 @@
 -Secondary: Grenade Launcher
 
 ###Reaper*
--Ability: Damage Boost
+-Ability: Damage Absorb
 Default Weapons: SA-Hawkins and Slug Rifle
 -Secondary: Sabot Rifle
 *The Reaper has extensive modifications to increase its rate of fire and reduce its heat generation compared to the Sharpshooter platform, at the cost of firepower
@@ -111,7 +111,7 @@ The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid
 -Secondary: TOW Rocket
 
 ###M2-Assault*
--Ability: Damage Boost
+-Ability: Damage Absorb
 -Default Weapons: Point-D Vulcan
 -Secondary: Sabot Rifle
 Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt fed, small caliber rounds, combined with improvements to the Assault plaform since its inception create a terrifying skirmisher and a hail of lead.
@@ -128,53 +128,53 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 *Pressed into service well before it was ready for the field, this prototype mech builds off the success of the Infiltrator platform but lacks the developments that the heavier B-Class chassis was intended to use.
 
 ###Raider*
--Ability: Jet Boosters
--Default Weapons: Mini-flak and Flak Cannon, also intended to work with EOC Repeater
--Secondary: TOW Rocket
-*The Raider platform sacrifices armor for speed and firepower. Its TOW Rockets have increased damage.
+-Ability: Blitz
+-Default Weapons: Flak Cannon & EOC Repeater
+-Secondary: Corsair-GL
+*The Raider platform sacrifices armor for speed and firepower. Its modified Corsair-GL does increased damage.
 
 ###Sharpshooter
--Ability: Damage Boost
+-Ability: Ballistic Barrage
 -Default Weapons: SA-Hawkins and Slug Rifle
 -Secondary: Sabot Rifle
 
 ##C-Class
 ###Brawler
--Ability: Damage Absorb
+-Ability: Fortified Turret
 -Default Weapons: Flak Cannon & SA-Hawkins, also intended to work with Point-D Vulcan
 -Secondary: TOW Rocket
 
 ###Grenadier
--Ability: Damage Boost
+-Ability: Ballistic Barrage
 -Default Weapons: Point-D Vulcan & HEAT Cannon
 -Secondary: Grenade Launcher
 
 ###Incinerator*
--Ability: None
+-Ability: Fortified Turret
 -Default Weapons: Point-D Vulcan & SMC
 -Secondary: MRLS
 *The Incinerator platform's weapons have massive heat generation to feed its MRLS secondary, which discharges this heat as a cluster of fireballs.
 
 ###Marauder*
--Ability: Jet Boosters
+-Ability: Blitz
 -Default Weapon: Flak Cannon
--Secondary: TOW Rocket
-*Prosk's modifications to the Sentium Raider platform. Slower, but more heavily armored and packing even more powerful TOW Rockets.
+-Secondary: Corsair-GL
+*Prosk's modifications to the Sentium Raider platform. Slower, but more heavily armored and packing an even more powerful Corsair-GL.
 
 ###Rocketeer
--Ability: Damage Absorb
+-Ability: Mobile Turret
 -Default Weapons: Seeker & HEAT Cannon,also intended to work with EOC Repeater
 -Secondary: Hellfire Missiles
 
 ###Vanguard
--Ability: Damage Absorb
+-Ability: Mobile Turret
 -Default Weapons: SMC & Mini-flak Cannon, also intended to work with Point-D Vulcan
 -Secondary: Grenade Launcher
 
 #Changelog
 
 -1.5:	
-		PAXPlus now uses UE Decompressor created by Gildor (https://www.gildor.org/downloads) as part of the installation process.
+		PAXPlus is now bundled with UE Decompressor created by Gildor (https://www.gildor.org/downloads) as part of the installation process.
 
 		Added Technician preset. You love it, you hate it, it's in PAX now. Stats identical to 2017 patch.
 		###Technician*
@@ -198,13 +198,20 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 		Ground Speed: 18.25m/s
 		Radar: 110m
 		Overheat time: 5.5s
-
-		Changed Assault preset to MechSubtype 7.
-		Changed Reaper preset to MechSubtype 3.
+				
+		Turret Mode has been enabled for C-Classes.
+		Changed Reaper preset to MechSubtype 3
+		Changed Assault preset to MechSubtype 7
+		Changed Brawler preset to MechSubtype 9
+		Changed Rocketeer preset to MechSubtype 11
+		Changed Vanguard preset to MechSubtype 13
 		Decreased Prototype Preadator heat generation by 34%.
-		Changed MechSubtype 0 to TOW & Ballistic Barrage for Berserker.
+		Raider and Maruader have been refit with a modified Flak-32 primary, and Corsair-GL secondary
+		Changed MechSubtype 0 to TOW & Ballistic Barrage for Berserker.		
+		Changed MechSubtype 2 to GL & Blitz for Raider & Marauder
 		Changed MechSubtype 4 to Helix Repair Torch & Damage Absorb for Technician.
 		Changed MechSubtype 7 to TOW & Weapons Coolant for Assault.
+		Changed MechSubtype 13 to Mobile Turret & Grenade Launcher for Vanguard
 		Changed Teleporter uses to 0. Effectivly disables the item.
 		Changed Combat Drone uses to 1. Reduced Combat Drone Health to 130.
 		Changed Blockade to be closer to later builds. Health 575, ShieldSize 0.25, MaxSize 1, ExpandTime 0.75s, ContractTime 1s, Lifespan 13s
@@ -213,6 +220,7 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 		Increased MG Turret damage to 6.5
 		Decreased Rocket Turret damage to 40
 		Decreased Seeker Turret damage to 35
+		Reduced recoil on Slug Rifle and Sabot Rifle.
 		Increased ThrusterVerticalSpeed from 350 to 700.
 		Increased AccelRate from 420 to 1260
 -1.4:	Added Low and Medium presets for graphics through new HawkenSystemSettings.ini files.
