@@ -203,7 +203,22 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 		Boost Speed: 32m/s
 		Ground Speed: 18.25m/s
 		Radar: 110m
-		Overheat time: 5.5s		
+		Overheat time: 5.5s	
+
+		Added Siegebreaker preset. As requested by @Ornual, a heavy C-Class sniper mech.
+		###Siegebreaker
+		-Ability: Ballistic Barrage
+		-Default Weapons: Slug Rifle and HEAT Cannon. Also intended to work with SA-Hawkins.
+		Back line sniper, capable of dominating open areas with powerful long range weapons.
+
+		The Siegebreaker is a heavily armored, long-range sniper mech designed to control open areas with high firepower and eliminate enemies that ignore it. It's Barrage ability gives it a burst of firepower to take down priority targets.
+
+		Armor: 770
+		Fuel Tank, Regen: 100L, 9L/s
+		Boost Speed: 24m/s
+		Ground Speed: 15m/s
+		Radar: 140m
+		Overheat time: 4.5s	
 		
 		Gameplay:
 		Air Dodges have been enabled for all mechs.
