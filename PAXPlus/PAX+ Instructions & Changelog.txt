@@ -110,7 +110,7 @@ The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid
 -Default Weapons: SMC & Point-D Vulcan, also intended to work with Assault Rifle
 -Secondary: TOW Rocket
 
-###M2-Assault*
+###G2-Assault*
 -Ability: Damage Absorb
 -Default Weapons: Point-D Vulcan
 -Secondary: Sabot Rifle
@@ -173,15 +173,21 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 
 #Changelog
 
--1.5:	
-		PAXPlus is now bundled with UE Decompressor created by Gildor (https://www.gildor.org/downloads) as part of the installation process.
+-1.5:	!NFiN!TY, TimeMaster, TomNeverwinter, and myself have created a standalone launcher utility for PAX+.
+		Features:
+			Automatically installs and updates all ini configurations, mech presets, and UPK byte patches to streamline the startup process.
+			Allows customization of graphics settings, FOV, cockpit lighting, and more without having to edit ini files.
+			Integrates the server browser built by !NFiN!TY and allows launching directly into a server.
+			As part of the launcher's functionality, it is bundled with UE Decompressor created by Gildor (https://www.gildor.org/downloads) as well as UPKPatch created by wghost (https://github.com/wghost/UPKUtils) and modified by TimeMaster to work with PAX packages.
+
+		**Note: Mech customization will be reset as part of this update to include the Technician and Demolisher.
 
 		Added Technician preset. You love it, you hate it, it's in PAX now. Stats identical to 2017 patch.
 		###Technician*
 		-Ability: Damage Absorb
 		Default Weapons: SA-Hawkins and Seeker
 		-Secondary: Helix Repair Torch
-		*Breakthroughs in material science and nanotechnology allow the Technician to repair allies or dismantle enemies in the middle of combat. The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid firing light Seeker launcher.
+		*Breakthroughs in material science and nanotechnology allow the Technician to repair allies in the middle of combat. The Technician is armed with the modifed SA-Hawkins from the Reaper, and a rapid firing light Seeker launcher.
 
 		Added Demolisher preset. Inspired by a PAX loadout, the long awaited Grenade Launcher and HEAT Cannon B-Class.		
 		###Demolisher
@@ -197,32 +203,69 @@ Sentium refinements on Prosk's Reaper-modified Sabot Rifle have allowed for belt
 		Boost Speed: 32m/s
 		Ground Speed: 18.25m/s
 		Radar: 110m
-		Overheat time: 5.5s
-				
+		Overheat time: 5.5s		
+		
+		Gameplay:
+		Air Dodges have been enabled for all mechs.
+		Increased fuel drain while flying from 1.4 A- / 1.5 B- / 1.6 C-Class to 1.5 A- / 1.65 B- / 1.8 C-Class
+		Reduced air speeds from 1540 A- / 1440 B- / 1190 C-Class to 1400 A- / 1360 B- / 1130 C-Class
 		Turret Mode has been enabled for C-Classes.
-		Changed Reaper preset to MechSubtype 3
+		Increased ThrusterVerticalSpeed from 350 to 700
+		Increased AccelRate from 420 to 1260
+
+		Mechs:
 		Changed Assault preset to MechSubtype 7
 		Changed Brawler preset to MechSubtype 9
 		Changed Rocketeer preset to MechSubtype 11
-		Changed Vanguard preset to MechSubtype 13
-		Decreased Prototype Preadator heat generation by 34%.
-		Raider and Maruader have been refit with a modified Flak-32 primary, and Corsair-GL secondary
+		Changed Vanguard preset to MechSubtype 13	
 		Changed MechSubtype 0 to TOW & Ballistic Barrage for Berserker.		
-		Changed MechSubtype 2 to GL & Blitz for Raider & Marauder
+		Changed MechSubtype 2 to Grenade Launcher & Blitz for Raider & Marauder
 		Changed MechSubtype 4 to Helix Repair Torch & Damage Absorb for Technician.
 		Changed MechSubtype 7 to TOW & Weapons Coolant for Assault.
-		Changed MechSubtype 13 to Mobile Turret & Grenade Launcher for Vanguard
+		Changed MechSubtype 13 to Mobile Turret & Grenade Launcher for Vanguard.
+		Decrease Reaper preset damage by 8%, increase heat genereation by 1%
+		Decreased G2-Assault damage by 1%, primary fire rate by 7%, secondary fire rate by 0.05s, increased heat generation by 1%
+		Decreased Prototype Preadator heat generation by 34%, decreased walking speed by 100u
+		Raider has been refit with a modified Flak-32 and EOC Repeater primaries and Corsair-GL secondary.
+		Marauder has been refit with a modified Flak-32 and Seeker primaries and Corsair-GL secondary. I thought Seekerauder was a meme. Turns out it was real.
+		
+		Abilities:
+		Changed Infiltrator and Preadator cloak to end early on heat generation.
+		Infiltrator's Camouflage now adds the correct boost and walk speed increases on activation.
+		Scout's Fuel Replenish now adds the correct boost increase on activation.
+		Assault's Weapons Coolant now correctly purges heat. 
+		Bruiser's Damage Absorb has been changed to 2014 version, 65% damage absorb for 1.25s, 16s recharge.
+
+		Items:
 		Changed Teleporter uses to 0. Effectivly disables the item.
-		Changed Combat Drone uses to 1. Reduced Combat Drone Health to 130.
-		Changed Blockade to be closer to later builds. Health 575, ShieldSize 0.25, MaxSize 1, ExpandTime 0.75s, ContractTime 1s, Lifespan 13s
+		Changed Combat Drone uses to 1. Reduced Combat Drone Health to 150.
+		Changed Blockade to be closer to later builds. Health 575, ShieldSize 0.25, MaxSize 1, ExpandTime 0.75s, ContractTime 1s, Lifespan 13s, Added item icon.
 		Changed Shield Health to 450
+		Increase Shield size from 5.5 to 8
+		Enabled Radar unit item. Detects enemy locations in a large radius.
+		Enabled Scanner item. Passive, provides early warning of enemy lockon weapons.
 		Decreased Turret Health to 198, decreased Turret TargetingRange to 11500u
 		Increased MG Turret damage to 6.5
 		Decreased Rocket Turret damage to 40
 		Decreased Seeker Turret damage to 35
+		EMPs will now destroy Shields and Blockades on contact.
+
+		Weapons:
+		Changed SAARE projectile gravity factor to 1.
 		Reduced recoil on Slug Rifle and Sabot Rifle.
-		Increased ThrusterVerticalSpeed from 350 to 700.
-		Increased AccelRate from 420 to 1260
+		Replaced Seeker's reused Hellfire model with HEAT Cannon model.
+		Changed Seeker firing animation.
+		Changed Slug Rifle firing sound.
+		Changed Point-D Vulcan firing sound.
+		SMC now blooms from 0.035 to 0.078 over 3s to reduce its power at long ranges.
+		Minor animation timing changes on some secondaries to reflect the faster refire.
+		Disabled stagger/knockback on explosive weapons.
+
+		Other:
+		Replaced Night Pools camo with Torch Prime, a bright red camo.
+		Replaced Bubblegum Prime camo with Amethyst Prime, a deep purple camo.
+		Added patch version to in game main menu.
+
 -1.4:	Added Low and Medium presets for graphics through new HawkenSystemSettings.ini files.
 		Corrected repair rate from 35/s across the board to 45/s for A-Class, 55/s for B-Class, and 65/s for C-Class
 		Corrected Seeker and Tri-Seeker splash radius from 57.5u to 575u.

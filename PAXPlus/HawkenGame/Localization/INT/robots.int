@@ -28,8 +28,8 @@ AbilityName="Mobile Turret"
 Description="Convert to a heavy defense mode with more mobility than standard. While in turret mode, reduce damage taken by 60%."
 
 [R_Ability_HeavyMode]
-AbilityName="Artillery Turret"
-Description="Convert to a reduced damage heavy defense mode with increased damage"
+AbilityName="Stalker"
+Description="Turn invisible indefinitely. Taking damage, Dashing, Dodging or Firing while in Stalker Mode deactivates Stalker abilities for a short period. "
 
 [R_Ability_HeavyRegen]
 AbilityName="Fortified Turret"
@@ -688,7 +688,7 @@ BigMsg_Stalemate="The Match is a Stalemate!"
 
 [R_Item_AreaRadar]
 DisplayName="RADAR"
-TooltipText="TEMP this is some tooltip text for the Area Radar"
+TooltipText="Launches a portable, armored radar unit that embeds itself in terrain or buildings on contact."
 
 [R_Item_Blockade]
 DisplayName="BLOCKADE"
@@ -700,7 +700,7 @@ TooltipText=""
 
 [R_Item_DetectTargeting]
 DisplayName="SENSOR"
-TooltipText="Who knows what secrets the sensor holds?"
+TooltipText="Provides advanced warnings against enemy lock-on weapons."
 
 [R_Item_Detonator]
 DisplayName="DETONATOR"
@@ -708,7 +708,7 @@ TooltipText="A slow, hovering, low-damage explosive charge with a large damage r
 
 [R_Item_Drone]
 DisplayName="Drone Fighter"
-TooltipText="Fighting Drone"
+TooltipText="A deployable, autonomous combat drone that seeks and destroys enemies. Pathfinding data is limited in some regions."
 
 [R_Item_EMP]
 DisplayName="EMP"
@@ -760,10 +760,10 @@ CamoPatternNames[0]=None
 CamoPatternNames[1]=Jungle Prime
 CamoPatternNames[2]=Desert Prime
 CamoPatternNames[3]=Water Prime
-CamoPatternNames[4]=Night Pools
+CamoPatternNames[4]=Torch Prime
 CamoPatternNames[5]=Lime Digital
-CamoPatternNames[6]=Aqua Digital
-CamoPatternNames[7]=Bubblegum Prime
+CamoPatternNames[6]=Amethyst Digital
+CamoPatternNames[7]=Frost Digital
 CamoPatternNames[8]=Swamp Pools
 CamoPatternNames[9]=Bengal Crease
 
@@ -1168,7 +1168,7 @@ DisplayName="Slug Rifle"
 TooltipText="A highly accurate, long-range rifle. Outpowered at close ranges but highly effective when used from afar."
 
 [R_Weap_SMG]
-DisplayName="Sub Machine Gun"
+DisplayName="Sub Machine Cannon"
 TooltipText="A short-barreled, rapid-fire weapon that excels at close ranges. The short barrel renders it less effective at a distance."
 
 [R_Weap_Sniper]
